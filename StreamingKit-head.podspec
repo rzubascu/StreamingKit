@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.source_files = 'StreamingKit/StreamingKit/*.{h,m}'
   s.ios.deployment_target = '4.3'
   s.ios.frameworks   = 'SystemConfiguration', 'CFNetwork', 'CoreFoundation', 'AudioToolbox'
+  s.tvos.platform = :tvos, '9.0'
+  s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.7'
   s.osx.frameworks   = 'SystemConfiguration', 'CFNetwork', 'CoreFoundation', 'AudioToolbox', 'AudioUnit'
 end
