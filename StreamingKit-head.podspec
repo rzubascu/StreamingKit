@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Thong Nguyen" => "tumtumtum@gmail.com" }
   s.source       = { :git => "https://github.com/tumtumtum/StreamingKit.git" }
-  s.platform     = :ios
+  # s.platform     = :ios
   s.requires_arc = true
   s.source_files = 'StreamingKit/StreamingKit/*.{h,m}'
   s.ios.deployment_target = '4.3'
